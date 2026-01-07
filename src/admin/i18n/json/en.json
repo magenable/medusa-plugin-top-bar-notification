@@ -1,0 +1,105 @@
+{
+  "list": {
+    "name": "Name",
+    "priority": "Priority",
+    "open": "Open",
+    "confirmation.delete.title": "Are you sure?",
+    "confirmation.delete.content": "You are going to delete the Top Bar Notification ({{notificationName}}). Do you want to continue?",
+    "confirmation.delete.confirm": "Continue",
+    "confirmation.delete.cancel": "Cancel",
+    "delete.success.title": "Success",
+    "delete.success.description": "Top Bar Notification successfully deleted",
+    "heading": "Top Bar Notifications",
+    "create_new": "Create a Top Bar Notification"
+  },
+  "item": {
+    "heading": "Top Bar Notification - Details",
+    "enabled": "Enabled",
+    "name": "Name",
+    "priority": "Priority",
+    "text_position": "Text Position",
+    "background_color": "Background Color",
+    "text_color": "Text Color",
+    "text_size": "Text Size",
+    "padding_size": "Padding Size",
+    "content": "Content",
+    "regions_and_countries": "Regions & Countries restrictions",
+    "no_restrictions": "No restrictions",
+    "regions": "Regions",
+    "region_countries": "Region Countries"
+  },
+  "modal": {
+    "heading": "Create a Top Bar Notification",
+    "cancel": "Cancel",
+    "create": "Create",
+    "create.success.title": "Success",
+    "create.success.description": "Top Bar Notification successfully created"
+  },
+  "drawer": {
+    "edit_item": {
+      "button": "Edit",
+      "heading": "Edit Top Bar Notification",
+      "cancel": "Cancel",
+      "save": "Save",
+      "update.success.title": "Success",
+      "update.success.description": "Top Bar Notification updated successfully"
+    },
+    "edit_regions": {
+      "button": "Edit",
+      "heading": "Edit Top Bar Notification Regions",
+      "alert": "If no region is selected, the Top Bar Notification will be displayed in all\n                                regions.",
+      "alert_2": "If no country is selected for a selected region, the Top Bar Notification will be\n                                displayed in all countries of a selected region.",
+      "cell.header.regions": "Regions",
+      "cell.header.countries": "Region Countries",
+      "cancel": "Cancel",
+      "save": "Save",
+      "update.success.title": "Success",
+      "update.success.description": "Top Bar Notification - Regions & Countries updated successfully"
+    }
+  },
+  "edit_item_fields": {
+    "enabled": "Enabled",
+    "name": {
+      "label": "Name",
+      "placeholder": "Notification Name",
+      "required": "Name is required"
+    },
+    "priority": {
+      "label": "Priority",
+      "placeholder": "Priority",
+      "required": "Priority is required"
+    },
+    "text_position": {
+      "label": "Text Position",
+      "placeholder": "Select a Text Position",
+      "required": "Text Position is required"
+    },
+    "background_color": {
+      "label": "Background Color",
+      "placeholder": "Background Color",
+      "required": "Background Color is required",
+      "tip_label": "Examples of possible values"
+    },
+    "text_color": {
+      "label": "Text Color",
+      "placeholder": "Text Color",
+      "required": "Text Color is required",
+      "tip_label": "Examples of possible values"
+    },
+    "text_size": {
+      "label": "Text Size (px)",
+      "placeholder": "Text Size",
+      "required": "Text Size is required"
+    },
+    "padding_size": {
+      "label": "Padding Size (px)",
+      "placeholder": "Padding Size",
+      "required": "Padding Size is required"
+    },
+    "content": {
+      "label": "Content",
+      "placeholder": "Notification Content",
+      "required": "Content is required"
+    }
+  }
+}
